@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+    background-image: url('images/background.jpg');
+    background-color: #1a1a1a;
+    color: #d3d3d3;
+    line-height: 1.6;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #d3d3d3;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f1c40f;
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+section {
+    text-align: center;
+}
+
+section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+section p {
+    font-size: 1.2em;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+ h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+ h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+ul li strong {
+    font-weight: bold;
+}
+
+div {
+    background-color: #333;
+    border: 2px solid #555;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+ img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #555;
+}
+
+ h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+ p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: auto;
+    font-family: 'Arial', sans-serif;
+}
+
+footer p {
+    color: #d3d3d3;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+}
